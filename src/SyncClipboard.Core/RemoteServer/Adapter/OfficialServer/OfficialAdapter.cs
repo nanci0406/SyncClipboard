@@ -737,7 +737,7 @@ public sealed class OfficialAdapter(
             var base64 = Convert.ToBase64String(
                 Encoding.ASCII.GetBytes($"{_officialConfig.UserName}:{_officialConfig.Password}"));
             _httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + base64);
-            _httpClient.DefaultRequestHeaders.Add("User-Agent", "SyncClipboard");
+            _httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0 Zotero/8.0.0");
         }
     }
 }

@@ -13,7 +13,7 @@ namespace SyncClipboard.Core.Utilities.Web
 {
     abstract public class WebDavBase : IWebDav, IDisposable
     {
-        private string USER_AGENT => AppConfig.AppStringId + AppConfig.AppVersion;
+        private string USER_AGENT => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0 Zotero/8.0.0";
 
         private static readonly JsonSerializerOptions SerializerOptions = new JsonSerializerOptions(JsonSerializerDefaults.Web)
         {

@@ -7,7 +7,7 @@ namespace SyncClipboard.Core.Utilities.Web
 {
     public class Http : IHttp
     {
-        public const string USER_AGENT = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36";
+        public const string USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0 Zotero/8.0.0";
 
         public Http()
         {
